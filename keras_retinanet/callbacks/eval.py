@@ -25,7 +25,7 @@ class Evaluate(keras.callbacks.Callback):
     def __init__(
         self,
         generator,
-        iou_threshold=0.75,
+        iou_threshold=0.90,
         score_threshold=0.05,
         max_detections=100,
         save_path=None,
